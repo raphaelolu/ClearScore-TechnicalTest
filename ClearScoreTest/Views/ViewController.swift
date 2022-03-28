@@ -21,6 +21,7 @@ class ViewController: UIViewController, CAAnimationDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Dashboard"
         viewModel.fetchData()
         setUpHomePage()
         animateRing()

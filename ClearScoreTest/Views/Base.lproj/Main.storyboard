@@ -16,50 +16,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJc-Ql-0FV">
-                                <rect key="frame" x="168.5" y="74" width="77" height="31.5"/>
-                                <accessibility key="accessibilityConfiguration" identifier="detailTitleLabel"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score band description" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gCr-CI-U42">
-                                <rect key="frame" x="97" y="230.5" width="220" height="26.5"/>
+                                <rect key="frame" x="97" y="230" width="220" height="26.5"/>
                                 <accessibility key="accessibilityConfiguration" identifier="scoreBandLabel"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DYQ-do-4aQ">
-                                <rect key="frame" x="186" y="277" width="42" height="21"/>
+                                <rect key="frame" x="186" y="276.5" width="42" height="21"/>
                                 <accessibility key="accessibilityConfiguration" identifier="scoreBandValue"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have ever defaulted" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x33-Bo-eCG">
-                                <rect key="frame" x="112" y="378" width="190" height="27"/>
+                                <rect key="frame" x="112" y="377.5" width="190" height="27"/>
                                 <accessibility key="accessibilityConfiguration" identifier="haveEverDefaultedLabel"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MWl-0A-3fs">
-                                <rect key="frame" x="186" y="425" width="42" height="21"/>
+                                <rect key="frame" x="186" y="424.5" width="42" height="21"/>
                                 <accessibility key="accessibilityConfiguration" identifier="haveEverDefaultedValue"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Percentage credit used" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWj-B3-H9L">
-                                <rect key="frame" x="97" y="526" width="220" height="27"/>
+                                <rect key="frame" x="97" y="525.5" width="220" height="27"/>
                                 <accessibility key="accessibilityConfiguration" identifier="percentageCreditLabel"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XNM-Fn-Aph">
-                                <rect key="frame" x="186" y="573" width="42" height="21"/>
+                                <rect key="frame" x="186" y="572.5" width="42" height="21"/>
                                 <accessibility key="accessibilityConfiguration" identifier="percentageCreditValue"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -70,19 +63,17 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="GWj-B3-H9L" firstAttribute="top" secondItem="MWl-0A-3fs" secondAttribute="bottom" constant="80" id="0YL-gv-5HQ"/>
-                            <constraint firstItem="gJc-Ql-0FV" firstAttribute="top" secondItem="4NZ-IO-MfZ" secondAttribute="top" constant="30" id="4Dk-Y6-MQF"/>
                             <constraint firstItem="x33-Bo-eCG" firstAttribute="top" secondItem="DYQ-do-4aQ" secondAttribute="bottom" constant="80" id="8BN-t4-5UZ"/>
                             <constraint firstItem="DYQ-do-4aQ" firstAttribute="top" secondItem="gCr-CI-U42" secondAttribute="bottom" constant="20" id="C24-ym-RXG"/>
                             <constraint firstItem="gCr-CI-U42" firstAttribute="centerX" secondItem="Ykk-fY-OVv" secondAttribute="centerX" id="DGr-nK-cgk"/>
-                            <constraint firstItem="gJc-Ql-0FV" firstAttribute="centerX" secondItem="Ykk-fY-OVv" secondAttribute="centerX" id="GuA-2Z-xDS"/>
                             <constraint firstItem="x33-Bo-eCG" firstAttribute="centerX" secondItem="Ykk-fY-OVv" secondAttribute="centerX" id="Odk-Uq-ZZM"/>
-                            <constraint firstItem="gCr-CI-U42" firstAttribute="top" secondItem="gJc-Ql-0FV" secondAttribute="bottom" constant="125" id="TCg-Lj-EGc"/>
                             <constraint firstItem="XNM-Fn-Aph" firstAttribute="centerX" secondItem="Ykk-fY-OVv" secondAttribute="centerX" id="WIy-RL-q3T"/>
                             <constraint firstItem="DYQ-do-4aQ" firstAttribute="centerX" secondItem="Ykk-fY-OVv" secondAttribute="centerX" id="cbk-3D-DIj"/>
                             <constraint firstItem="MWl-0A-3fs" firstAttribute="centerX" secondItem="Ykk-fY-OVv" secondAttribute="centerX" id="cgL-mq-rJj"/>
                             <constraint firstItem="GWj-B3-H9L" firstAttribute="centerX" secondItem="Ykk-fY-OVv" secondAttribute="centerX" id="oas-oA-nsw"/>
                             <constraint firstItem="MWl-0A-3fs" firstAttribute="top" secondItem="x33-Bo-eCG" secondAttribute="bottom" constant="20" id="rXC-Gt-FaQ"/>
                             <constraint firstItem="XNM-Fn-Aph" firstAttribute="top" secondItem="GWj-B3-H9L" secondAttribute="bottom" constant="20" id="vZG-iY-fOk"/>
+                            <constraint firstItem="gCr-CI-U42" firstAttribute="top" secondItem="4NZ-IO-MfZ" secondAttribute="top" constant="186" id="yr3-Zv-A2f"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="fVw-45-3s8"/>

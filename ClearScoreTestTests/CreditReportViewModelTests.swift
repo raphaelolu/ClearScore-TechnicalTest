@@ -51,6 +51,7 @@ class CreditReportViewModelTests: XCTestCase {
     }
     
     func testErrorObjectContainsCorrectDetailsUnderSuccessCase(){
+        
         let exp = expectation(description: "Test after 5 seconds")
         let result = XCTWaiter.wait(for: [exp], timeout: 5.0)
         if result == XCTWaiter.Result.timedOut{

@@ -11,7 +11,6 @@ class DetailsPageTests: XCTestCase {
         
         let detailsButton = app.buttons.staticTexts["Details"]
         detailsButton.tap()
-        let detailsTitleLabel = app.staticTexts["detailTitleLabel"]
         let scoreBandDescription = app.staticTexts["scoreBandLabel"]
         let scoreBandValue = app.staticTexts["scoreBandValue"]
         let haveDefaultedLabel =  app.staticTexts["haveEverDefaultedLabel"]
@@ -19,7 +18,6 @@ class DetailsPageTests: XCTestCase {
         let percentageCreditLabel = app.staticTexts["percentageCreditLabel"]
         let percentageCreditValue = app.staticTexts["percentageCreditValue"]
         
-        XCTAssertEqual(detailsTitleLabel.label,"Details")
         XCTAssertEqual(scoreBandDescription.label,"Score band description")
         XCTAssertEqual(scoreBandValue.label,"Excellent")
         XCTAssertEqual(haveDefaultedLabel.label,"Have ever defaulted")
