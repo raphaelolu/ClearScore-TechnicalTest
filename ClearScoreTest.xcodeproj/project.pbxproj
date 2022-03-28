@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A55FEF0E27F107B0000540F4 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55FEF0C27F107B0000540F4 /* DetailsViewController.swift */; };
+		A58EBDAA27F135650022B349 /* DetailsPageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58EBDA927F135650022B349 /* DetailsPageTests.swift */; };
 		A5A13AB227EB3EBE00D89F89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A13AB127EB3EBE00D89F89 /* AppDelegate.swift */; };
 		A5A13AB427EB3EBE00D89F89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A13AB327EB3EBE00D89F89 /* SceneDelegate.swift */; };
 		A5A13AB627EB3EBE00D89F89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A13AB527EB3EBE00D89F89 /* ViewController.swift */; };
 		A5A13AB927EB3EBE00D89F89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A13AB727EB3EBE00D89F89 /* Main.storyboard */; };
 		A5A13ABB27EB3EC500D89F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A13ABA27EB3EC500D89F89 /* Assets.xcassets */; };
 		A5A13ABE27EB3EC500D89F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A13ABC27EB3EC500D89F89 /* LaunchScreen.storyboard */; };
-		A5A13AC927EB3EC600D89F89 /* ClearScoreTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A13AC827EB3EC600D89F89 /* ClearScoreTestTests.swift */; };
+		A5A13AC927EB3EC600D89F89 /* MockNetWorkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A13AC827EB3EC600D89F89 /* MockNetWorkService.swift */; };
 		A5A13AD327EB3EC600D89F89 /* ClearScoreTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A13AD227EB3EC600D89F89 /* ClearScoreTestUITests.swift */; };
 		A5A13AD527EB3EC600D89F89 /* ClearScoreTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A13AD427EB3EC600D89F89 /* ClearScoreTestUITestsLaunchTests.swift */; };
+		A5A13AE827EB400700D89F89 /* CreditReportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A13AE727EB400700D89F89 /* CreditReportModel.swift */; };
+		A5A13AEC27EB485D00D89F89 /* CoachingSummaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A13AEB27EB485D00D89F89 /* CoachingSummaryModel.swift */; };
+		A5A13AEE27EB4E1000D89F89 /* CreditReportInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A13AED27EB4E1000D89F89 /* CreditReportInfoModel.swift */; };
+		A5A13AF027EB546C00D89F89 /* CreditReportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A13AEF27EB546C00D89F89 /* CreditReportViewModel.swift */; };
+		A5A13AF427EB552200D89F89 /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A13AF327EB552200D89F89 /* NetworkServiceProtocol.swift */; };
+		A5A13AF627EB55BF00D89F89 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A13AF527EB55BF00D89F89 /* NetworkService.swift */; };
+		A5A13AFB27EB568200D89F89 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A13AFA27EB568200D89F89 /* CustomError.swift */; };
+		A5A13AFE27EDEFB800D89F89 /* NetworkCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A13AFD27EDEFB800D89F89 /* NetworkCallTests.swift */; };
+		A5A13B0027EDEFDC00D89F89 /* CreditReportViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A13AFF27EDEFDC00D89F89 /* CreditReportViewModelTests.swift */; };
+		A5A13B0227EDFDD000D89F89 /* ErrorObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A13B0127EDFDD000D89F89 /* ErrorObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A55FEF0C27F107B0000540F4 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		A58EBDA927F135650022B349 /* DetailsPageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPageTests.swift; sourceTree = "<group>"; };
 		A5A13AAE27EB3EBE00D89F89 /* ClearScoreTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClearScoreTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A13AB127EB3EBE00D89F89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5A13AB327EB3EBE00D89F89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,10 +59,20 @@
 		A5A13ABD27EB3EC500D89F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5A13ABF27EB3EC500D89F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5A13AC427EB3EC600D89F89 /* ClearScoreTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClearScoreTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5A13AC827EB3EC600D89F89 /* ClearScoreTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearScoreTestTests.swift; sourceTree = "<group>"; };
+		A5A13AC827EB3EC600D89F89 /* MockNetWorkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetWorkService.swift; sourceTree = "<group>"; };
 		A5A13ACE27EB3EC600D89F89 /* ClearScoreTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClearScoreTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A13AD227EB3EC600D89F89 /* ClearScoreTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearScoreTestUITests.swift; sourceTree = "<group>"; };
 		A5A13AD427EB3EC600D89F89 /* ClearScoreTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearScoreTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A5A13AE727EB400700D89F89 /* CreditReportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditReportModel.swift; sourceTree = "<group>"; };
+		A5A13AEB27EB485D00D89F89 /* CoachingSummaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachingSummaryModel.swift; sourceTree = "<group>"; };
+		A5A13AED27EB4E1000D89F89 /* CreditReportInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditReportInfoModel.swift; sourceTree = "<group>"; };
+		A5A13AEF27EB546C00D89F89 /* CreditReportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditReportViewModel.swift; sourceTree = "<group>"; };
+		A5A13AF327EB552200D89F89 /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		A5A13AF527EB55BF00D89F89 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		A5A13AFA27EB568200D89F89 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		A5A13AFD27EDEFB800D89F89 /* NetworkCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCallTests.swift; sourceTree = "<group>"; };
+		A5A13AFF27EDEFDC00D89F89 /* CreditReportViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditReportViewModelTests.swift; sourceTree = "<group>"; };
+		A5A13B0127EDFDD000D89F89 /* ErrorObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +123,13 @@
 		A5A13AB027EB3EBE00D89F89 /* ClearScoreTest */ = {
 			isa = PBXGroup;
 			children = (
+				A5A13AF727EB564A00D89F89 /* Helper */,
+				A5A13AE427EB3F2B00D89F89 /* NetworkCalls */,
+				A5A13AE327EB3F1F00D89F89 /* Views */,
+				A5A13AE227EB3F1600D89F89 /* ViewModels */,
+				A5A13AE127EB3F0E00D89F89 /* Models */,
 				A5A13AB127EB3EBE00D89F89 /* AppDelegate.swift */,
 				A5A13AB327EB3EBE00D89F89 /* SceneDelegate.swift */,
-				A5A13AB527EB3EBE00D89F89 /* ViewController.swift */,
-				A5A13AB727EB3EBE00D89F89 /* Main.storyboard */,
 				A5A13ABA27EB3EC500D89F89 /* Assets.xcassets */,
 				A5A13ABC27EB3EC500D89F89 /* LaunchScreen.storyboard */,
 				A5A13ABF27EB3EC500D89F89 /* Info.plist */,
@@ -113,7 +140,9 @@
 		A5A13AC727EB3EC600D89F89 /* ClearScoreTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				A5A13AC827EB3EC600D89F89 /* ClearScoreTestTests.swift */,
+				A5A13AFC27EDEF8A00D89F89 /* MockService */,
+				A5A13AFD27EDEFB800D89F89 /* NetworkCallTests.swift */,
+				A5A13AFF27EDEFDC00D89F89 /* CreditReportViewModelTests.swift */,
 			);
 			path = ClearScoreTestTests;
 			sourceTree = "<group>";
@@ -123,8 +152,63 @@
 			children = (
 				A5A13AD227EB3EC600D89F89 /* ClearScoreTestUITests.swift */,
 				A5A13AD427EB3EC600D89F89 /* ClearScoreTestUITestsLaunchTests.swift */,
+				A58EBDA927F135650022B349 /* DetailsPageTests.swift */,
 			);
 			path = ClearScoreTestUITests;
+			sourceTree = "<group>";
+		};
+		A5A13AE127EB3F0E00D89F89 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5A13AE727EB400700D89F89 /* CreditReportModel.swift */,
+				A5A13AEB27EB485D00D89F89 /* CoachingSummaryModel.swift */,
+				A5A13AED27EB4E1000D89F89 /* CreditReportInfoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5A13AE227EB3F1600D89F89 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A5A13AEF27EB546C00D89F89 /* CreditReportViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A5A13AE327EB3F1F00D89F89 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5A13AB727EB3EBE00D89F89 /* Main.storyboard */,
+				A5A13AB527EB3EBE00D89F89 /* ViewController.swift */,
+				A55FEF0C27F107B0000540F4 /* DetailsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A5A13AE427EB3F2B00D89F89 /* NetworkCalls */ = {
+			isa = PBXGroup;
+			children = (
+				A5A13AF327EB552200D89F89 /* NetworkServiceProtocol.swift */,
+				A5A13AF527EB55BF00D89F89 /* NetworkService.swift */,
+			);
+			path = NetworkCalls;
+			sourceTree = "<group>";
+		};
+		A5A13AF727EB564A00D89F89 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A5A13AFA27EB568200D89F89 /* CustomError.swift */,
+				A5A13B0127EDFDD000D89F89 /* ErrorObject.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A5A13AFC27EDEF8A00D89F89 /* MockService */ = {
+			isa = PBXGroup;
+			children = (
+				A5A13AC827EB3EC600D89F89 /* MockNetWorkService.swift */,
+			);
+			path = MockService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +344,16 @@
 			files = (
 				A5A13AB627EB3EBE00D89F89 /* ViewController.swift in Sources */,
 				A5A13AB227EB3EBE00D89F89 /* AppDelegate.swift in Sources */,
+				A5A13AEE27EB4E1000D89F89 /* CreditReportInfoModel.swift in Sources */,
+				A5A13AEC27EB485D00D89F89 /* CoachingSummaryModel.swift in Sources */,
+				A5A13AF627EB55BF00D89F89 /* NetworkService.swift in Sources */,
+				A5A13B0227EDFDD000D89F89 /* ErrorObject.swift in Sources */,
+				A5A13AF427EB552200D89F89 /* NetworkServiceProtocol.swift in Sources */,
+				A5A13AE827EB400700D89F89 /* CreditReportModel.swift in Sources */,
+				A5A13AFB27EB568200D89F89 /* CustomError.swift in Sources */,
 				A5A13AB427EB3EBE00D89F89 /* SceneDelegate.swift in Sources */,
+				A5A13AF027EB546C00D89F89 /* CreditReportViewModel.swift in Sources */,
+				A55FEF0E27F107B0000540F4 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +361,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A13AC927EB3EC600D89F89 /* ClearScoreTestTests.swift in Sources */,
+				A5A13AFE27EDEFB800D89F89 /* NetworkCallTests.swift in Sources */,
+				A5A13AC927EB3EC600D89F89 /* MockNetWorkService.swift in Sources */,
+				A5A13B0027EDEFDC00D89F89 /* CreditReportViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A58EBDAA27F135650022B349 /* DetailsPageTests.swift in Sources */,
 				A5A13AD327EB3EC600D89F89 /* ClearScoreTestUITests.swift in Sources */,
 				A5A13AD527EB3EC600D89F89 /* ClearScoreTestUITestsLaunchTests.swift in Sources */,
 			);
